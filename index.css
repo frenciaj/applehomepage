@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.main-menu {
+  background-color: #333;
+  text-align: center;
+  height: 48px;
+
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: inline-flex;
+}
+.nav-menu li {
+  text-decoration: none;
+  float:left;
+  color: white;
+  margin-left: 65px;
+  padding-top: 14px;
+
+}
+.fontli {
+  font-family: lato;
+}
+.iphone-photo {
+  float: left;
+  padding-top: 10px;
+  padding-left: 165px;
+}
+.iphone-text {
+  float: left;
+  padding-top: 200px;
+}
+#iphone-photo {
+  width: 450px;
+}
+#iphone-text {
+  width: 500px;
+}
+.iphone-links {
+  padding-left: 46px;
+  font-family: lato;
+  font-size: 1.4em;
+}
+.iphone-links span a {
+  color: #08c;
+
+}
+#trade {
+  padding-left: 25px;
+}
+.promo {
+  list-style-type: none;
+  display: inline-flex;
+}
+.promo li img {
+  width: 356px;
+
+}
+.middle-section p  {
+  text-align: center;
+  font-family: lato;
+  font-size: 1em;
+
+}
+.middle-section p a {
+  color: #08c;
+
+}
+.middle-section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.lower-links-div {
+  float: left;
+  font-family: lato;
+  font-size: 12px;
+  padding-left: 65px;
+}
+.lower-nav {
+  background: #f2f2f2;
+  padding-left: 215px;
+  padding-top: 15px;
+}
+.lower-links li a {
+  text-decoration: none;
+  color: #666;
+
+}
+.sameline li a {
+  text-decoration: none;
+  color: #666;
+}
+
+footer {
+  width: 1425px;
+  height: 280px;
+  background-color: #f2f2f2;
+}
+#footer {
+  width: 1425px;
+  height: auto;
+  background-color: #f2f2f2;
+
+}
+.msgfooter {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: lato;
+  font-size: 11px;
+  color: #666;
+  padding-bottom: 20px;
+}
+.line1 p a {
+  text-decoration: none;
+  color: #08c;
+}
+.lower-links li, .sameline li {
+  padding-top: 10px;
+}
+.last-links {
+  list-style-type: none;
+  display: inline-flex;
+
+}
+.last-links li {
+  text-decoration: none;
+  float:left;
+  color: #666;
+}
+.last-links ul li a {
+  text-decoration: none;
+  color: #666;
+}
+
+.move {
+  padding-left: 15px;
+
+}
+#country {
+  height: 30px;
+}
+.country {
+  padding-left: 250px;
+}
